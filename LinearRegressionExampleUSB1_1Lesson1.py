@@ -1,4 +1,8 @@
-import tensorflow
+#imports
+import tensorflow as tf
+#need to import np
+import numpy as np
+
 x = np.array([1,2,3])
 weights = np.array([0.5, 0.35, 0.2])
 bias = np.array([1,1,1])
